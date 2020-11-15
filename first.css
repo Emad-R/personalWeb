@@ -1,0 +1,37 @@
+h1 {
+    text-align:center;
+    color:#b3b3b3;
+    
+    
+}
+
+#quote {
+    text-align:center;
+    font-style: italic;
+    font-size: 18px;
+}
+
+#islam img {
+    margin:50px;
+}
+
+
+#images img {
+    margin:50px;
+}
+
+body {
+    background-color: rgb(0,70,161);
+}
+
+#link {
+    text-align:center;
+    
+    
+}
+#bottom {
+    background-color:#b3b3b3;
+    margin:-6px;   
+}
+
+

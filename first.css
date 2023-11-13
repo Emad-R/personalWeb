@@ -1,47 +1,35 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: rgb(0, 70, 161); /* Fallback color */
-    background-color: #0046a1; /* Actual color */
+h1 {
+    text-align: center;
     color: #b3b3b3;
 }
 
-h1, #quote {
-    text-align: center;
-}
-
 #quote {
+    text-align: center;
     font-style: italic;
     font-size: 18px;
 }
 
-#bottom {
-    width: 80%;
-    margin: 0 auto;
-    background-color: #b3b3b3;
-    padding: 20px;
-    box-sizing: border-box;
+#islam img {
+    position: relative;
+    margin: 50px;
 }
 
-#images img, #islam img {
-    width: 100%;
-    height: auto;
-    margin: 20px 0;
+#images img {
+    position: relative;
+    margin: 50px;
+}
+
+body {
+    background-color: rgb(0, 70, 161);
 }
 
 #link {
     text-align: center;
+    position: relative;
     font-size: large;
 }
 
-@media only screen and (min-width: 600px) {
-    #bottom {
-        width: 60%;
-    }
-
-    #images img, #islam img {
-        width: 48%;
-        margin: 1%;
-    }
+#bottom {
+    background-color: #b3b3b3;
+    margin: -6px;
 }

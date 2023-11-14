@@ -67,11 +67,7 @@ body {
     right:650px
 }
 
-#star{
-    position:absolute;
-    top:350px;
-    right:50px;
-}
+
 @media screen and (max-width: 767px) {
     body {
         max-width: 100%;
@@ -84,6 +80,10 @@ body {
         min-width: 200px; /* Set a minimum width for laptops and desktops */
     }
 }
+
+
+
+
 
 
 

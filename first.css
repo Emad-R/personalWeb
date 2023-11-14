@@ -2,10 +2,10 @@ h1 {
     text-align: center;
     background-color: rgb(0, 70, 161);
     color: #b3b3b3;
-    margin: 0; 
-    padding: 10px; 
-    width: 100vw; 
-    box-sizing: border-box; 
+    margin: 0; /* Remove default margin */
+    padding: 10px; /* Add padding for better appearance */
+    width: 100vw; /* Set the width to cover the entire viewport width */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
 #quote {
@@ -60,5 +60,5 @@ body {
 
 #bottom {
     background-color: #b3b3b3;
-    margin: -6px;
+    font-size: 1.5vw;
 }
